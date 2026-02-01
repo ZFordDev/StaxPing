@@ -1,0 +1,80 @@
+
+# **LICENSE (Source‑Available, Noncommercial)**  
+### **StaxPing Source‑Available License**  
+**Version 1.1 — 2026‑02‑01**
+
+Copyright © 2026 StaxDash  
+All rights reserved.
+
+---
+
+## **1. Grant of Rights**
+
+StaxDash grants you a **non‑exclusive, worldwide, royalty‑free, noncommercial license** to:
+
+- use StaxPing  
+- view and study the source code  
+- modify the source code for personal or internal use  
+- create forks or derivative works  
+- redistribute unmodified binaries  
+- redistribute modified source code **provided this License and the EULA are included**  
+
+This is a **source‑available** license.  
+It is **not** an open‑source license under the OSI definition.
+
+All rights not expressly granted remain with StaxDash.
+
+---
+
+## **2. Noncommercial Use Only**
+
+You **may not**:
+
+- sell StaxPing  
+- sell access to StaxPing  
+- include StaxPing in a paid product or service  
+- use StaxPing in a commercial environment  
+- use StaxPing to provide paid consulting, diagnostics, or SaaS  
+- monetize modified or unmodified versions of StaxPing  
+
+**Commercial use requires explicit written permission from StaxDash.**
+
+---
+
+## **3. Redistribution Requirements**
+
+If you redistribute StaxPing (modified or unmodified), you must:
+
+- include this LICENSE file  
+- include the EULA  
+- retain all copyright notices  
+- clearly mark any modifications  
+
+---
+
+## **4. No Warranty**
+
+StaxPing is provided **“as is”**, without warranty of any kind.  
+See the EULA for full warranty and liability terms.
+
+---
+
+## **5. Relationship to the EULA**
+
+This LICENSE governs the **source code**.  
+The **binary distribution** is additionally governed by the **StaxPing Source‑Available License & EULA**.
+
+If there is a conflict between this LICENSE and the EULA, the EULA controls.
+
+---
+
+## **6. Contact**
+
+For commercial licensing or questions:  
+**zforddev@gmail.com**
+
+---
+
+# **End of License**
+
+---
