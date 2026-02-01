@@ -67,7 +67,7 @@ A `.deb` package is available for Debian/Ubuntu‑based systems.
 Download the latest release:
 
 ```
-wget https://github.com/ZFordDev/StaxPing/releases/download/v0.1.0/staxping_0.1.0_amd64.deb
+wget https://github.com/ZFordDev/StaxPing/releases/download/V0.1.0/staxping_0.1.0_amd64.deb
 sudo dpkg -i staxping_0.1.0_amd64.deb
 ```
 
