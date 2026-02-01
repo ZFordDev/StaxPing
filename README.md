@@ -62,16 +62,19 @@ staxping --help
 ## **Installation**
 
 ### **Linux (Primary Target)**  
-StaxPing will be available as a `.deb` package and via APT:
+A `.deb` package is available for Debian/Ubuntu‑based systems.
+
+Download the latest release:
 
 ```
-sudo apt install staxping
+wget https://github.com/ZFordDev/StaxPing/releases/download/v0.1.0/staxping_0.1.0_amd64.deb
+sudo dpkg -i staxping_0.1.0_amd64.deb
 ```
 
-(Coming soon — currently under active development.)
+APT repository support is planned for a future milestone.
 
 ### **Windows (Secondary Target)**  
-A standalone `.exe` will be provided once Linux packaging is complete.
+A standalone `.exe` will be provided once Linux packaging is fully stabilized.
 
 ---
 
@@ -121,8 +124,25 @@ The current milestone includes:
 - DNS, ICMP, and HTTP modules  
 - Optional traceroute with clean fallback messaging  
 - Polished, aligned CLI output  
+- Linux `.deb` packaging for amd64  
 
-Advanced flags and extended diagnostics will follow.
+Future milestones will introduce:
+
+- Advanced flags  
+- Extended diagnostics  
+- APT repository support  
+- Windows `.exe` distribution  
+
+---
+
+## **License**
+
+StaxPing is **source‑available and noncommercial**.  
+You may view, modify, and redistribute the source code for personal or internal use.
+
+Commercial use of any kind requires explicit written permission from StaxDash.
+
+See `LICENSE` and `EULA.txt` for full terms.
 
 ---
 
