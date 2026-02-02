@@ -1,6 +1,7 @@
 [![Website](https://img.shields.io/badge/Website-zford.dev-000000?style=flat-square)](https://zford.dev)
 [![Store](https://img.shields.io/badge/Store-staxdash.com-4CAF50?style=flat-square)](https://staxdash.com)
 [![Ko‑Fi](https://img.shields.io/badge/Support-KoFi-FF5E5B?style=flat-square)](https://ko-fi.com/zforddev)
+[![itch.io](https://img.shields.io/badge/itch.io-StaxPing-FA5C5C?style=flat-square)](https://zforddev.itch.io/staxping)
 
 ---
 
