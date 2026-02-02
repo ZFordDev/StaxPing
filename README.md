@@ -1,9 +1,20 @@
+[![Website](https://img.shields.io/badge/Website-zford.dev-000000?style=flat-square)](https://zford.dev)
+[![Store](https://img.shields.io/badge/Store-staxdash.com-4CAF50?style=flat-square)](https://staxdash.com)
+[![Ko‑Fi](https://img.shields.io/badge/Support-KoFi-FF5E5B?style=flat-square)](https://ko-fi.com/zforddev)
+
+---
+
 # **StaxPing**  
 ### **a product of StaxDash | life made simple**
 
 StaxPing is a lightweight, cross‑platform network diagnostic tool designed to replace the messy, inconsistent mix of `ping`, `dig`, `traceroute`, and `curl` with one clean, predictable command.
 
 Built in Rust for speed, safety, and portability — StaxPing provides a unified view of DNS resolution, ICMP latency, HTTP health, and optional hop‑by‑hop routing, all with clean, consistent output.
+
+---
+
+> This project has been flagged for a major upgrade — the potential here is huge, and it’s getting priority attention.
+> — ZFordDev
 
 ---
 
@@ -148,9 +159,18 @@ See `LICENSE` and `EULA.txt` for full terms.
 
 ## **Part of the StaxDash Tool Suite**
 
-StaxPing is one of the official StaxDash micro‑tools — a collection of small, fast, reliable utilities designed to make life simpler across Linux, Windows, and Docker environments.
+---
 
-Learn more at:  
-**https://staxdash.com**
+## Explore More
+
+[**zford.dev**](https://zford.dev) — the projects that shape the platform.  
+Not everything makes the cut, but everything matters.
+
+[**staxdash.com**](https://staxdash.com) — the storefront for all tools, big and small.  
+Clean, minimal, purpose‑built utilities.
+
+**Ko‑Fi** — support the work and help fuel the dream:  
+https://ko-fi.com/zforddev
 
 ---
+
