@@ -1,80 +1,67 @@
-# **StaxPing Classic — Legacy Network Diagnostics Tool**
+# StaxPing Classic (Archived)
 
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/zforddev/staxping?style=for-the-badge&color=78C2AD" alt="Version">
-  <img src="https://img.shields.io/github/license/zforddev/staxping?style=for-the-badge&color=blue" alt="License">
-  <img src="https://img.shields.io/github/stars/zforddev/staxping?style=for-the-badge&color=FFD700" alt="Stars">
-</p>
+StaxPing Classic is the original experimental version of **StaxPing**, built in Rust as a learning project focused on system‑level networking, diagnostics, and CLI design.
 
-**StaxPing Classic** is the original version of StaxPing — a lightweight, cross‑platform network diagnostics tool built in Rust.  
-This branch is now preserved as a **legacy edition** while the next‑generation Stax ecosystem is being developed.
-
-The classic version remains available for historical reference, stability, and users who prefer the original workflow.
+This repository is now **archived**.  
+It remains available only for historical reference and for users interested in the early Rust experiments that led to later tooling.
 
 ---
 
-## 💡 Why This Branch Exists
+## Project Background
 
-StaxPing began as a simple, unified replacement for tools like:
+StaxPing Classic was created as a personal exploration into:
 
-- `ping`  
-- `dig`  
-- `traceroute`  
-- `curl`  
+- Rust networking primitives  
+- ICMP, DNS, HTTP, and routing inspection  
+- Cross‑platform CLI ergonomics  
+- Capability checks and structured output formatting  
 
-It provided a clean, predictable CLI for DNS, ICMP, HTTP, and routing checks — all in one binary.
-
-As the project grew, StaxPing started expanding into system monitoring, uptime tracking, and resource inspection.  
-To avoid becoming bloated, the project is now being **split into multiple focused tools**:
-
-- **StaxPing** — network diagnostics  
-- **StaxSpec** — system specs & resource monitoring  
-- **StaxDash** — unified GUI dashboard (paid convenience layer)
-
-This branch preserves the original tool before the ecosystem reboot.
+It served as a practical way to learn Rust, system calls, and low‑level diagnostics — but it was never intended to compete with established tools or provide meaningful advantages over existing alternatives.
 
 ---
 
-## ✨ Philosophy (Classic Edition)
+## Why It’s Archived
 
-The classic version of StaxPing was built on a few core ideas:
+This project is being retired because:
 
-- **Speed & Safety** — Rust‑powered performance  
-- **Predictability** — consistent, readable output  
-- **Cross‑Platform** — Linux, Windows, macOS  
-- **Zero Bloat** — one binary, one job  
-- **Professional Onboarding** — EULA, config, capability checks  
+- It does not offer benefits over standard tools (`ping`, `dig`, `curl`, etc.)  
+- The “all‑in‑one” approach proved too broad for long‑term maintainability  
+- The ecosystem has since moved toward **smaller, focused utilities**  
+- A new architecture is being developed under the **StaxDash** organization  
 
-These principles continue in the new ecosystem, but with a cleaner, modular architecture.
-
----
-
-## 🛠 Current State (Classic)
-
-| Version | Status | Focus |
-|--------|--------|--------|
-| **StaxPing Classic (v0.x)** | `Legacy` | Original all‑in‑one network tool |
-| **StaxPing 2.x** | `In Dev` | Modular rewrite with updater + ecosystem support |
-| **Stax Ecosystem** | `Planned` | StaxPing + StaxSpec + StaxDash |
+StaxPing Classic is frozen as a snapshot of early experimentation.
 
 ---
 
-## 🌐 Part of a Larger Ecosystem
+## What Remains Available
 
-The classic version was the seed of what is now becoming the **Stax SysAdmin Toolkit** — a suite of small, sharp, local‑first tools with a premium GUI layer.
+Although archived, the following still work:
 
-The new architecture lives on the `main` branch and in separate repos:
+- Historical releases  
+- Linux `.deb` builds  
+- Windows `.exe` builds  
+- The original Rust source code  
+- The classic configuration and onboarding flow  
 
-- `staxping` (network diagnostics)  
-- `staxspec` (system specs)  
-- `staxdash` (GUI dashboard)  
-- `stax` (central registry + ecosystem docs)
-
-This branch remains frozen as a reference point.
+These are preserved for anyone studying the original implementation or Rust CLI design patterns.
 
 ---
 
-## 🚀 Installation (Classic)
+## Successor Projects
+
+Development has moved to the **StaxDash** organization, where tools are being rebuilt with a cleaner, modular architecture:
+
+- **Staxup2**
+- **Staxinit**
+- **Crafty-Snap** 
+
+You can follow active development here:
+
+👉 https://github.com/StaxDash
+
+---
+
+## Installation (Legacy)
 
 ### Linux (.deb)
 ```bash
@@ -83,36 +70,23 @@ sudo dpkg -i staxping_0.1.0_amd64.deb
 ```
 
 ### Windows (.exe)
-Download from the Releases page.  
+Download from the Releases page.
 PATH handling is automatic on first run.
 
----
+## Historical Notes
+StaxPing Classic included:
+- DNS, ICMP, HTTP, and traceroute modules
+- A simple onboarding EULA
+- Capability checks
+- A single‑binary distribution model
+These features remain in the archived codebase for reference only.
 
-## 📖 Documentation & Links
+## Author
+Created by ZFordDev as a Rust learning project.
+Thanks to everyone who tested early builds and provided feedback during its experimental phase.
 
-**Classic Resources:**
-- `config.json` (first‑run setup)
-- DNS, ICMP, HTTP, traceroute modules
-- EULA onboarding flow
-
-**New Ecosystem:**
-- StaxPing 2.x (main branch)
-- StaxSpec (system monitoring)
-- StaxDash (GUI dashboard)
-- Central registry (`stax.toml`)
-
----
-
-## 👥 Credits
-
-Created and maintained by **ZFordDev**.  
-Thanks to early users who shaped the original tool and inspired the ecosystem reboot.
-
----
-
-## ❤️ Support the Project
-
-If StaxPing Classic helped you diagnose a network issue or learn Rust CLI design:
-
-- ⭐ **Star the repo** to help others discover it  
-- ☕ **Support on Ko‑Fi**: [https://ko-fi.com/zforddev](https://ko-fi.com/zforddev)  
+## If You Found It Useful
+Even though the project is archived:
+- ⭐ Star the repo if it helped you learn Rust or networking
+- ☕ Support the developer: https://ko-fi.com/zforddev
+StaxPing Classic may be retired, but the lessons learned from it continue in the next‑generation StaxDash ecosystem.
